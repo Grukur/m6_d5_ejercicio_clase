@@ -1,0 +1,24 @@
+{
+    "autos": [
+        {
+            "id": 1,
+            "marca": "ferrari",
+            "modelo": "F40",
+            "asientos": 2
+        },
+        {
+            "id": 2,
+            "marca": "porsche",
+            "modelo": "911",
+            "asientos": 2
+        },
+        {
+            "id": 3,
+            "marca": "lamborghini",
+            "modelo": "murcielago",
+            "asientos": 2
+        }
+    ]
+
+  
+}

@@ -2,9 +2,9 @@
     "autos": [
         {
             "id": 1,
-            "marca": "ferrari",
+            "marca": "Ferrari",
             "modelo": "F40",
-            "asientos": 2
+            "asientos": 3
         },
         {
             "id": 2,
@@ -17,8 +17,12 @@
             "marca": "lamborghini",
             "modelo": "murcielago",
             "asientos": 2
+        },
+        {
+            "id": "65d0be",
+            "marca": "Nissano",
+            "modelo": "S40",
+            "asientos": "1"
         }
     ]
-
-  
 }

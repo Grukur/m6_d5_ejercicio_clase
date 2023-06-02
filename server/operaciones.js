@@ -38,7 +38,6 @@ const eliminarVehiculo = (id)=>{
 };
 
 const modificar = (id, marca, modelo, asientos)=>{
-    console.log(id, marca, modelo, asientos)
     marca == 'undefined'? marca = undefined:marca=marca
     modelo == 'undefined'? modelo = undefined:modelo=modelo
     asientos == 'undefined'? asientos = undefined:asientos=asientos

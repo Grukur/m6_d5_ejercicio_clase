@@ -1,7 +1,5 @@
 const fs = require('fs');
 const {v4:uuid} = require('uuid')
- 
-
 
 class Vehiculo{
     constructor(id, marca, modelo, asientos){
@@ -16,12 +14,12 @@ class Vehiculo{
         return resultado
     }
     findAll(){
-
         return this.findAllObj().autos
     }
     findById(id){
         let autos = this.findAll()
-        return autos.find(auto => auto.id == id)
+        console.log(autos)
+        return autos.find(a => a.id == id)
     }
     findByMarca(marca){
         let autos = this.findAll()
@@ -70,8 +68,9 @@ module.exports = {
 }
 
 /* let auto = new Vehiculo()
-console.log(auto.findAll())
-console.log(auto.findById(4))
+console.log(auto.findById('65d0be')) */
+
+/* console.log(auto.findAll())
 console.log(auto.findByMarca('chiripas'))
 let auto2 = new Vehiculo(1, 'Ferrari', 'F40', 3)
 let resultado = auto2.update()
